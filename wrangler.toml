@@ -23,7 +23,7 @@ MAX_IMAGES = "8"
 # "true" marks an article as read in CommaFeed after its EPUB is downloaded.
 MARK_READ_ON_DOWNLOAD = "false"
 # Language tag written into the EPUBs.
-LANG = "tr"
+LANG = "en"
 # "true" fetches the full article text through the sanitizer chain by default
 # (per-URL override: ?full=1 / ?full=0). Needs at least one sanitizer token secret:
 #   npx wrangler secret put INSTAPARSER_TOKEN   # https://www.instaparser.com
